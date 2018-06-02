@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        setSupportActionBar(Objects.requireNonNull(binding.include).myToolbar);
+        setSupportActionBar(Objects.requireNonNull(binding.includeToolbar).myToolbar);
     }
 }

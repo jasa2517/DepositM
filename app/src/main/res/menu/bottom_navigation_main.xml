@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorites"
+        android:enabled="true"
+        android:icon="@drawable/outline_attach_money_black_24"
+        android:title="@string/bottom_navigation_money_box"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_schedules"
+        android:enabled="true"
+        android:icon="@drawable/outline_home_black_24"
+        android:title="@string/bottom_navigation_home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_music"
+        android:enabled="true"
+        android:icon="@drawable/outline_notifications_none_black_24"
+        android:title="@string/bottom_navigation_clack"
+        app:showAsAction="ifRoom" />
+</menu>
