@@ -47,4 +47,3 @@ dependencies {
     implementation 'com.crashlytics.sdk.android:crashlytics:2.9.3'
 
 }
-

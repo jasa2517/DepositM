@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_favorites"
+        android:id="@+id/action_money_box"
         android:icon="@drawable/outline_attach_money_black_24"
         android:title="@string/bottom_navigation_money_box" />
     <item
@@ -13,5 +13,5 @@
     <item
         android:id="@+id/action_notify"
         android:icon="@drawable/outline_notifications_none_black_24"
-        android:title="@string/bottom_navigation_clack" />
+        android:title="@string/bottom_navigation_notify" />
 </menu>
